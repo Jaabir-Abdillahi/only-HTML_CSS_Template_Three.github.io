@@ -19,6 +19,7 @@
 </head>
 
 <body>
+    <span class="up"><i class="fa-solid fa-arrow-up"></i></span>
     <!-- start header  -->
     <div class="header" id="header">
         <div class="container">
@@ -623,25 +624,31 @@
                 <div class="skill">
                     <h3>HTML <span>95%</span></h3>
                     <div class="the-progress">
-                        <span style="width: 95%"></span>
+                        <span style="width: 0" data-width="95%"></span>
+                    </div>
+                </div>
+                <div class="skill">
+                    <h3>Python <span>80%</span></h3>
+                    <div class="the-progress">
+                        <span style="width: 0" data-width="80%"></span>
                     </div>
                 </div>
                 <div class="skill">
                     <h3>JavaScript <span>60%</span></h3>
                     <div class="the-progress">
-                        <span style="width: 60%"></span>
+                        <span style="width: 0" data-width="60%"></span>
                     </div>
                 </div>
                 <div class="skill">
                     <h3>CSS <span>85%</span></h3>
                     <div class="the-progress">
-                        <span style="width: 85%"></span>
+                        <span style="width: 0" data-width="85%"></span>
                     </div>
                 </div>
                 <div class="skill">
                     <h3>PHP <span>71%</span></h3>
                     <div class="the-progress">
-                        <span style="width: 71%"></span>
+                        <span style="width: 0" data-width="71%"></span>
                     </div>
                 </div>
             </div>
@@ -692,19 +699,19 @@
             <div class="info">
                 <div class="time">
                     <div class="unit">
-                        <span>15</span>
+                        <span class="days">0</span>
                         <span>Days</span>
                     </div>
                     <div class="unit">
-                        <span>80</span>
+                        <span class="hours">0</span>
                         <span>Hours</span>
                     </div>
                     <div class="unit">
-                        <span>45</span>
+                        <span class="minutes">0</span>
                         <span>Minutes</span>
                     </div>
                     <div class="unit">
-                        <span>55</span>
+                        <span class="seconds">0</span>
                         <span>Seconds</span>
                     </div>
                 </div>
@@ -816,22 +823,22 @@
         <div class="container">
             <div class="box">
                 <i class="far fa-user fa-2x fa-fw"></i>
-                <span class="number">300</span>
+                <span class="number" data-goal="300">0</span>
                 <span class="text">Client</span>
             </div>
             <div class="box">
                 <i class="fas fa-code fa-2x fa-fw"></i>
-                <span class="number">400</span>
+                <span class="number" data-goal="400">0</span>
                 <span class="text">Project</span>
             </div>
             <div class="box">
                 <i class="fas fa-globe-africa fa-2x fa-fw"></i>
-                <span class="number">12</span>
+                <span class="number" data-goal="12">0</span>
                 <span class="text">Conutries</span>
             </div>
             <div class="box">
                 <i class="far fa-money-bill-alt fa-2x fa-fw"></i>
-                <span class="number">500k</span>
+                <span class="number" data-goal="500">0</span>
                 <span class="text">Money</span>
             </div>
         </div>
@@ -936,6 +943,7 @@
         <p class="copyright">Made With &lt;3 BY Jaabir | Abdikarem</p>
     </div>
     <!-- Footer End -->
+    <script src="main.js"></script>
 </body>
 
 </html>
